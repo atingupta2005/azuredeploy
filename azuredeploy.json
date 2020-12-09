@@ -115,7 +115,7 @@
    "properties": {
        "mode": "Incremental",
        "templateLink": {
-           "uri":"storage.json"
+           "uri":"https://raw.githubusercontent.com/atingupta2005/azuredeploy/main/storage.json"
        },
        "parameters": {
            "storageAccountName":{"value": "[variables('storageAccountName')]"},
