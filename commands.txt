@@ -1,0 +1,7 @@
+wget https://raw.githubusercontent.com/atingupta2005/azuredeploy/main/azuredeploy.json
+
+mv azuredeploy.json?? azuredeploy.json
+
+az group create -l westus -n agrg
+
+az group deployment create --name atinDeployment --resource-group agrg  --template-file azuredeploy.json
